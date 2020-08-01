@@ -1,0 +1,710 @@
+/*  reset css */
+*{
+    margin:0px;
+    padding:0px;
+}
+
+html 
+{
+    scroll-behavior:smooth;
+}
+/*-----------------------------------Mobile css-------------------------------------------------------------------*/
+
+/*========================================================index page =============================================================*/
+
+
+/*=========Hero_Section=======================*/
+
+.bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.9)), url("../images/Hero1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height:90%;
+    padding-top: 50px;
+}
+
+#Hero_title
+{
+    font-size:6.5vw;
+    margin-top:20%;
+    letter-spacing:0.2rem;
+}
+
+#Hero_Subtitle
+{
+    font-size:3.5vw;
+    margin-top:10%;
+    text-transform: uppercase;
+}
+
+#Hero_Btn
+{
+    height:auto;
+    width:auto;
+    font-size:6vw;
+    margin-top:10%;
+    border-radius:25px;
+    padding:2% 2%;
+    margin-bottom:10%;
+}
+
+
+
+/*============program section==================*/
+
+
+#begineer_one
+{
+    height:50vh;
+    width:100%;
+    padding:2% 2%;
+    overflow-x:none;
+}
+
+#begineer_Two
+{
+    height:40vh;
+    width:90%;
+    margin-bottom:7%;
+    padding:0% 2%;
+    margin-top:-105px;
+    margin-left:7%;
+    overflow-x:none;
+}
+
+#Begineer_One_Content span,#Begineer_Two_Content span
+{
+    display:grid;
+    align-items: center;
+    font-size:2.5vh;
+    font-weight:bold;
+    letter-spacing:0.3rem;
+    padding-top:15%;
+}
+
+#Begineer_One_Content p,#Begineer_Two_Content p
+{
+    display:grid;
+    text-align: justify;
+    padding:2% 8%;
+
+}
+
+
+#begineer_btn
+{
+    display:grid;
+    align-self:center;
+    margin:auto 20%;
+}
+
+
+/*------------------------- WOrkshop section---------------------------*/
+
+.workshop-bg-overlay
+{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.9)), url("../images/workshop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height:50%;
+    padding-top:2%;
+}
+
+/*--------------------Download section-------------------------------------*/
+
+#Download_Section
+{
+    height:auto;
+    width:100%;
+    color:white;
+    background-color:#454249;                                                                           /* #7039d6*/
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing:0.1rem;  
+    padding-bottom:2vh;;
+}
+
+#Check_Now_btn
+{
+    display:grid;
+    align-content: center;
+    margin:10% 25%;
+    font-weight:500;
+    letter-spacing:0.1rem;
+}
+
+/*--------------Acheviment section ---------------------------------------*/
+
+#Achieve_heading
+{
+    font-size:7vw;
+    font-weight:bold;
+    letter-spacing:0.3rem;
+    margin-top:7%;
+}
+
+#Achieve_img1
+{
+    height:20vh;
+    width:30vw;
+    padding:4% 4%;
+    margin:5% 0 5% 33%;
+}
+/*--------------------Footer-----------------------------------------------*/
+
+
+
+.myhover
+{
+    border-radius:30px;
+    cursor:pointer;
+   
+}
+
+.myhover:hover
+{
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:1px 2px grey;
+}
+ /*========================================================Contact page =============================================================*/
+
+ input[type=text],input[type=email]{
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+  }
+
+  textarea
+  {
+      width:60%;
+      margin-right:5%;
+  }
+  
+  input[type=submit] {
+    background-color: #e9313a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #ec0e51;
+  }
+  
+  .container_Contact{
+    border-radius: 5px;
+    padding: 20px;
+    margin-top:2%;
+    margin-left:8%;
+    background-color:#c2c2c2;
+  }
+  
+  #Contact_img
+{
+    /*margin-top:2%;
+    margin-left:10%;
+    border-radius:50%;
+    height:50vh;
+    width:80%;*/
+    display:none;
+}
+
+/*===================================================About Page=============================================================*/
+
+.accordion {
+    background-color:#454249;                                                                           /* #7039d6*/
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: rgb(109, 95, 106);
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: rgb(124, 121, 121);
+    color:white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  
+
+/*============================================================ipad and pro===================================================*/
+
+@media only screen and (min-width:620px) and (max-width:800px)
+{
+
+    /*--------------------------------------------------index page-----------------------------------------*/
+
+    /*-------------------hero section---------------------------*/
+    #Hero_title
+    {
+        margin-top:8%;
+        font-size:6vw;
+    }
+
+    #Hero_Subtitle
+    {
+        font-size:3vw;
+        margin-top:9%;
+    }
+
+    #Hero_Btn
+    {
+        padding:1% 2%;
+        margin-top:8%;
+        font-size:4vw;
+    }
+
+    /*============program section==================*/
+
+    #Begineer_One_Content span,#Begineer_Two_Content span
+    {
+        font-size:4vh;
+    }
+
+    #Begineer_One_Content p,#Begineer_Two_Content p
+    {
+        font-size:2.5vh;
+    }
+
+    /*--------------------Download section-------------------------------------*/
+
+    #Check_Now_btn
+    {
+        margin:8% 35% ;
+    }
+    
+
+/*========================================================Contact page =============================================================*/
+
+
+  .container_Contact{
+    margin-left:5%;
+  }
+ 
+
+   
+}
+
+
+
+/*============================================================ipad and pro===================================================*/
+
+@media only screen and (min-width:800px) and (max-width:1050px)
+{
+
+    /*--------------------------------------------------index page-----------------------------------------*/
+
+    /*-------------------hero section---------------------------*/
+    #Hero_title
+    {
+        margin-top:5%;
+        font-size:5vw;
+    }
+
+    #Hero_Subtitle
+    {
+        font-size:2.5vw;
+        margin-top:7%;
+    }
+
+    #Hero_Btn
+    {
+        padding:1% 2%;
+        margin-top:6%;
+        font-size:3.5vw;
+    }
+
+    /*============program section==================*/
+
+
+#begineer_one,#begineer_Two
+{
+    height:55vh;
+}
+
+#Begineer_One_Content span,#Begineer_Two_Content span
+{
+    display:grid;
+    align-items: center;
+    font-size:3.5vh;
+    font-weight:bold;
+    letter-spacing:0.3rem;
+    margin-top:3%;
+}
+
+
+#begineer_btn
+{
+    display:grid;
+    align-self:center;
+    margin:auto 30%;
+}
+
+    /*--------------------Download section-------------------------------------*/
+
+    #Check_Now_btn
+    {
+        margin:6% 35% ;
+    }
+
+
+    /*--------------Acheviment section ---------------------------------------*/
+
+#Achieve_heading
+{
+    font-size:3vw;
+    font-weight:bold;
+    letter-spacing:0.3rem;
+    margin:4% 0;
+}
+
+#Achieve_img1
+{
+    height:13vh;
+    width:10vw;
+    margin:10% 2% 0% 42%;
+    padding:2% 2%;
+}
+
+/*========================================================Contact page =============================================================*/
+
+  
+.container_Contact{
+    margin-left:1%;
+  }
+ 
+
+}
+
+
+
+/*============================================================Laptop ===================================================*/
+
+@media only screen and (min-width:1051px) and (max-width:1200px)
+{
+
+    /*--------------------------------------------------index page-----------------------------------------*/
+
+    /*-------------------hero section---------------------------*/
+    #Hero_title
+    {
+        margin-top:4%;
+        font-size:4.5vw;
+    }
+
+    #Hero_Subtitle
+    {
+        font-size:2vw;
+        margin-top:5%;
+    }
+
+    #Hero_Btn
+    {
+        padding:1% 2%;
+        margin-top:4%;
+        font-size:3vw;
+    }
+
+
+    /*============program section==================*/
+
+
+#begineer_one,#begineer_Two
+{
+    height:55vh;
+}
+
+#Begineer_One_Content span,#Begineer_Two_Content span
+{
+    display:grid;
+    align-items: center;
+    font-size:3.5vh;
+    font-weight:bold;
+    letter-spacing:0.3rem;
+    margin-top:3%;
+}
+
+#begineer_btn
+{
+    display:grid;
+    align-self:center;
+    margin:auto 30%;
+}
+
+
+    /*--------------------Download section-------------------------------------*/
+
+    #Check_Now_btn
+    {
+        margin:6% 37% ;
+    }
+
+
+/*--------------Acheviment section ---------------------------------------*/
+
+#Achieve_heading
+{
+    font-size:3vw;
+    font-weight:bold;
+    letter-spacing:0.3rem;
+    margin:4% 0;
+}
+
+#Achieve_img1
+{
+    height:13vh;
+    width:13vw;
+    margin:10% 2% 5% 20%;
+    padding:2% 2%;
+}
+
+
+ /*========================================================Contact page =============================================================*/
+
+ input[type=text],input[type=email]{
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+  }
+
+  textarea
+  {
+      width:60%;
+      margin-right:5%;
+  }
+  
+  input[type=submit] {
+    background-color: #e9313a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #ec0e51;
+  }
+  
+  .container_Contact{
+    border-radius: 5px;
+    padding: 20px;
+    margin-top:2%;
+    margin-left:0%;
+    background-color:#c2c2c2;
+  }
+  
+  #Contact_img
+{
+    display:block;
+    margin-top:2%;
+    margin-left:10%;
+    border-radius:50%;
+    height:50vh;
+    width:80%;
+}
+
+
+
+}
+/*============================================================ little large Laptop ===================================================*/
+
+@media only screen and (min-width:1201px) and (max-width:2000px)
+{
+
+    /*--------------------------------------------------index page-----------------------------------------*/
+
+    /*-------------------hero section---------------------------*/
+    #Hero_title
+    {
+        margin-top:2%;
+        font-size:4.5vw;
+        letter-spacing:0.6rem;
+    }
+
+    #Hero_Subtitle
+    {
+        font-size:1.5vw;
+        margin-top:3%;
+    }
+
+    #Hero_Btn
+    {
+        padding:1% 2%;
+        margin-top:4%;
+        font-size:1.5vw;
+    }
+
+     /*============program section==================*/
+
+
+    #begineer_one
+    {
+        height:55vh;
+        width:80%;                                                                         /*  Width changed */
+    }
+
+    #begineer_Two
+    {
+    height:40vh;
+    width:90%;
+    margin-bottom:7%;
+    padding:0% 2%;
+    margin-top:5%;
+    margin-left:7%;
+    overflow-x:none;
+    }
+
+    #Begineer_One_Content span,#Begineer_Two_Content span
+    {
+        display:grid;
+        align-items: center;
+        font-size:4vh;
+        font-weight:bold;
+        letter-spacing:0.3rem;
+        margin-top:3%;
+    }
+
+    #Begineer_One_Content p,#Begineer_Two_Content p
+    {
+        font-size:2.5vh;
+    }
+
+    #begineer_btn
+    {
+        display:grid;
+        align-self:center;
+        margin:auto 30%;
+    }
+
+    /*--------------------Download section-------------------------------------*/
+
+   
+
+    #Check_Now_btn
+    {
+        margin:3% 40% ;
+    }
+
+
+
+    /*--------------Acheviment section ---------------------------------------*/
+
+#Achieve_heading
+{
+    font-size:3vw;
+    font-weight:bold;
+    letter-spacing:0.3rem;
+    margin:4% 0;
+}
+
+#Achieve_img1
+{
+    height:10vh;
+    width:10vw;
+    margin:10% 10% 5% 0%;
+    padding:2% 2%;
+}
+    
+#grid
+{
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+#grid_01
+{
+    grid-column:1/2;
+    
+}
+
+#grid_02
+{
+    grid-column:3/4;
+    left:40%;
+}
+
+
+#grid_03
+{
+    grid-column:6/6;
+}
+
+#grid_02 h1
+{
+    left:5%;
+}
+
+/*=====================================================================contact page========================================*/
+
+#Contact_img
+{
+    display:block;
+    margin-top:2%;
+    margin-left:10%;
+    border-radius:50%;
+    height:50vh;
+    width:80%;
+}
+
+
+.container_Contact{
+    margin-left:0%;
+  }
+
+
+  #Form_Submit
+  {
+      visibility:hidden;
+      padding:1% 1%;
+      margin-left:10%;
+      margin-right:10%;
+      margin-top:1%;
+      margin-bottom:1%; 
+  }
+
+}
+
+
+

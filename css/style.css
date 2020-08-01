@@ -1,0 +1,346 @@
+/*
+*
+{
+    margin: 0;
+    padding: 0; 
+}
+.nav-bar{
+    background: #1d4052;
+    color: #fff;
+    padding: 20px;
+    font-family: sans-serif;
+}
+.nav-bar img{
+    height: 45px;
+    float: left;
+    margin-left: 20px;
+}
+
+
+
+.menu-right{
+    text-align: right;
+}
+ul li{
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+    
+}
+
+span{
+    margin: 0 20px;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+
+
+-----------------------------------------------------------------------------*/
+
+/*=====================================Navbar======================================================*/
+/*-------------------------------------------------------------------------------
+@media only screen and (max-width: 700px){
+    span
+    {
+        display: block;
+    }
+    ul li{
+        display: block;
+    }
+    ul{
+        display: none;
+    }
+
+}
+---------------------------------------------------------------------------------*/
+
+/*========================================================index page =============================================================*/
+
+
+/*=========Hero_Section=======================*/
+/******************************************************************************************************************
+.bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.9)), url("../images/Hero1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height:90%;
+    padding-top: 50px;
+}
+
+
+#Hero_title
+{
+    font-size:8vw;
+    margin-top:55%;
+    letter-spacing:0.2rem;
+}
+
+#Hero_Subtitle
+{
+    font-size:4vw;
+    margin-top:10%;
+    text-transform: uppercase;
+}
+
+#Hero_Btn
+{
+    height:10%;
+    width:45%;
+    font-size:6vw;
+    margin-top:10%;
+    border-radius:25px;
+    padding:3% 2%;
+}
+
+-----------------------------------------------------------------------------------------------------------------*/
+
+
+/*==========================================ipad and ipad plus size=============================================================*/
+/*-----------------------------------------------------------------------------------------------------------------
+@media only screen and (min-width:768px) and (max-width: 1024px){
+
+    #Hero_title
+    {
+        margin-top:5%;
+    }
+
+    #Hero_Btn
+    {
+       padding:0% 1%;
+    }
+}
+-----------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*==========================================Laptop and Desktop size=============================================================*/
+/*
+@media only screen and (min-width:1280px) and (max-width: 1440px){
+
+    #Hero_title
+    {
+        margin-top:5%;
+        font-size:6.5vw;
+        letter-spacing: 0.9rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    #Hero_Subtitle
+    {
+        font-size:2vw;
+        margin-top:5%;
+        font-family: sans-serif;
+    }
+
+    #Hero_Btn
+    {
+        height:10vh;
+        width:30vw;
+        font-size:4vw;
+        margin-top:6%;
+        border-radius:25px;
+        padding: 0% 0%;
+
+    }
+}
+
+
+*/
+
+
+/*==========================================Large Laptop and Desktop size=============================================================*/
+/*
+@media only screen and (min-width:1441px) and (max-width: 1930px){
+
+    #Hero_title
+    {
+        margin-top:10%;
+        font-size:6.5vw;
+        letter-spacing: 0.9rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    #Hero_Subtitle
+    {
+        font-size:2vw;
+        margin-top:5%;
+        font-family: sans-serif;
+    }
+
+    #Hero_Btn
+    {
+        height:10vh;
+        width:30vw;
+        font-size:4vw;
+        margin-top:6%;
+        border-radius:25px;
+        padding: 0% 0%;
+
+    }
+
+    .bg-overlay {
+        background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.9)), url("../images/Hero1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        color: #fff;
+        height:110%;
+        padding-top: 50px;
+    }
+}
+*/
+/*========================================== Max Large Laptop and Desktop size=============================================================*/
+/*
+@media only screen and (min-width:1931px) and (max-width:2080px){
+
+    #Hero_title
+    {
+        margin-top:10%;
+        font-size:5.5vw;
+        letter-spacing: 0.9rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    #Hero_Subtitle
+    {
+        font-size:2vw;
+        margin-top:5%;
+        font-family: sans-serif;
+    }
+
+    #Hero_Btn
+    {
+        height:8vh;
+        width:22vw;
+        font-size:3vw;
+        margin-top:8%;
+        margin-bottom:15%;
+        border-radius:25px;
+        padding: 0% 0% 1% 1%;
+
+    }
+
+    .bg-overlay {
+        background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.9)), url("../images/Hero1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        color: #fff;
+        height:120%;
+        padding-top: 50px;
+    }
+}
+
+*/
+
+/*========================================== More  Max Large Laptop and Desktop size=============================================================*/
+/*
+@media screen and (min-width:2081px) and (max-width:8890px) {
+
+    .bg-overlay
+    {
+        height:135%;
+
+    }
+
+    #Hero_title
+    {
+        margin-top:8%;
+        font-size:6vw;
+        letter-spacing: 0.9rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    }
+
+    #Hero_Subtitle
+    {
+        font-size:2vw;
+        margin-top:5%;
+        font-family: sans-serif;
+    }
+
+    #Hero_Btn
+    {
+        height:10vh;
+        width:20vw;
+        font-size:3vw;
+        margin-top:7%;
+        border-radius:25px;
+        padding:0% 0% 1% 1%;
+    }
+}
+
+*/
+
+
+
+
+
+
+*
+{
+    margin:0px;
+    padding:0px;
+}
+
+a 
+{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+ul li
+{
+    list-style-type: none;
+    display:inline-block;
+    margin:20px;
+    
+}
+
+.menu-right
+{
+    text-align:right;
+
+}
+
+
+.nav-bar
+{
+    background-color:#1f171ffd;
+    color:white;
+    padding:20px;
+    font-family:sans-serif;
+    
+}
+
+#HamIcon
+{
+    font-size:30px;
+    margin:0 60%;
+    cursor:pointer;
+    display:none;
+    float: right;
+}
+
+
+@media only screen and (max-width:768px)
+{
+    #HamIcon
+    {
+        display:block;
+    }
+
+    ul li
+    {
+        display:block;
+        
+    }
+
+    ul
+    {
+        display:none;
+    }
+}
